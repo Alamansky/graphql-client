@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node_modules/.bin/webpack-dev-server --mode development --config webpack.config.js --open %BROWSER% --hot --history-api-fallback"
+		"start": "node_modules/.bin/webpack-dev-server --mode development --config webpack.config.js --open chrome --hot --history-api-fallback"
 	},
 	"repository": {
 		"type": "git",
@@ -55,6 +55,8 @@
 		"graphql-tag": "^2.10.1",
 		"react": "^16.10.0",
 		"react-apollo": "^3.1.1",
-		"react-dom": "^16.10.0"
+		"react-dom": "^16.10.0",
+		"react-router": "^5.1.2",
+		"react-router-dom": "^5.1.2"
 	}
 }
